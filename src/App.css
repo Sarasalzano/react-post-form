@@ -7,7 +7,7 @@
 
 /* REGOLE GENERALI */
 body {
-    background-color: #f0f2f5;
+    background: linear-gradient(135deg, #e0f7fa, #c1e7f2);
 }
 
 h2 {
@@ -16,13 +16,15 @@ h2 {
     margin-bottom: 20px;
 }
 
+
 .text-field, textarea {
     display: block;
     margin-bottom: 20px;
     margin-top: 5px;
     width: 100%;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: #f5f5f5
 }
 
 .text-field {
@@ -46,10 +48,10 @@ label {
 .wrapper {
     width: 300px;
     padding: 20px;
-    border-radius: 10px;
-    background-color: #f5f5f5;
+    border-radius: 10px; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
     margin: 100px auto;
+    background-color: white;
 }
 
 .checkbox-wrapper {
@@ -62,6 +64,8 @@ label {
     height: 15px;
     margin-left: 10px;
     cursor: pointer;
+    background-color: #f5f5f5;
+    border: 1px solid rgb(219, 219, 219);
 }
 
 .checkbox-label {
@@ -73,7 +77,7 @@ button.wrapper {
 }
 
 button {
-    background-color: #007bff;
+    background: linear-gradient(45deg, #26c6da, #00acc1);
     color: white;
     width: 60%;
     font-family: arial;
@@ -85,4 +89,9 @@ button {
     margin: 0 auto;
     cursor: pointer;
 
+}
+
+
+input:focus, textarea:focus {
+  outline: #26c6da;
 }
